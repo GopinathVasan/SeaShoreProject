@@ -1,8 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
 import './App.css';
-
 import Navbar from "./routers/Navbar.js";
 import Home from "./routers/Home";
+import Service from "./routers/Service.js";
+import About from "./routers/About.js";
 
 function App() {
   return (
@@ -10,6 +10,8 @@ function App() {
       <Navbar/>
       <>
       <Home/>
+      <Service/>
+      <About/>
       </>
     </div>
   );

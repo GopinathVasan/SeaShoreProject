@@ -1,4 +1,5 @@
-import image1 from "../assert/choose-us.jpg";
+import React from 'react';
+import image1 from "../assert/choose-us-1.jpg";
 function ChooseUs(){
     const listItems = [{id:1,icon:'fa-solid fa-medal',title:"Supreme Quality",content:"Seaworks Co. sets the bar high, as we perform our duties and work to the best of our ability, making sure we exceed the standards set forth by the clients."},
                     {id:2,icon:'fa-solid fa-hand-holding-hand',title:"Solid Support",content:"We cooperate with each other, trying our best in any circumstances. Using our individual skills and working collaboratively to achieve the goal."},

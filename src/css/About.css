@@ -1,0 +1,36 @@
+.read-more-target,
+.read-more-trigger_opened {
+  display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target,
+.read-more-state:checked ~ .read-more-trigger_opened {
+  display: block;
+}
+.read-more-state:checked ~ .read-more-trigger_closed {
+  display: none;
+}
+.about-container{
+    font-size: 2em;
+}
+
+.responsive-paragraph {
+    position: relative;
+    margin: 1em 0;
+    height:100vh;
+    font-size: 2em;
+    display: grid;
+  }
+  
+  .responsive-paragraph p {
+    margin: 0;
+  }
+  
+  .read-more {
+    background: none;
+    border: none;
+    color: rgb(255, 2, 2);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: underline;
+  }
