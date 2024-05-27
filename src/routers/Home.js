@@ -9,7 +9,6 @@ function Home() {
     <div className='home-container'>
     <video src={videobg} autoPlay loop muted className='home-video' />
     <HomeContent/>
-    <HomeContact/>
     <WelcomeTo/>
     <ChooseUs/>
     </div>);
