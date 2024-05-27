@@ -1,4 +1,4 @@
-import videobg from '../assert/video1.mp4';
+import videobg from '../assert/main.mp4';
 import "../css/HomeStyle.css";
 import ChooseUs from '../homecomponent/ChooseUs.js';
 import HomeContent from '../homecomponent/HomeContent.js';
