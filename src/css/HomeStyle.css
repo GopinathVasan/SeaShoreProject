@@ -19,14 +19,6 @@
       top: 10%;
       right: 20%;
       text-align: left;
-      /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-weight: lighter;
-      font-size: large; */
-      /* font-family: "Barlow Condensed", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-      font-size: 30px; */
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
@@ -52,13 +44,13 @@
   #c1{
       width: 50%;
       text-align: center;
-      height: 300px;
+      height: 100%;
       display: flex;
       flex-direction: column;
   }
   #c1 h3 {
       margin-bottom: -20px;
-      color:#bab641;
+      color:#bfa582;
       font-family: "Shadows Into Light";
       font-size: 54px; 
       font-style: normal; 
@@ -71,60 +63,69 @@
   #c1 h2{
           margin-bottom: -5px;
           font-size: 2.5em;
+          color: #012b46;
   }
   #c1 hr{
       width: 160px;
       position: relative;
       text-align: center;
       justify-content: center;
-      border: 2px solid #bab641;
-      color: #bab641;
+      border: 2px solid #bfa582;
+      color: #bfa582;
   }
   #c1 p {
       margin-top: 50px;
       font-size: 1.2em;
   }
   #choose{
-      width: 100%;
-      height: 175vh;
-      /* background-image:url(C:\Users\gowth\Desktop\mugil\website\src\assert\choose-us.jpg); */
-      position: relative;
+    height: 100%;
+      /* background-image:url(../assert/choose-us-1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;  */
   }
-  #choose img{
-      width: 94%;
-      height: 110vh;
-      position: relative;
-      margin-bottom: 0%;
-  
-  }
+
   .choose-content p{
       text-align: justify;
-      padding-left: 70px;
-      padding-right: 70px;
+      margin-left: 50%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
   }
+
   .choose-content{
-      position: absolute;
-      top: 42%;
-      color: rgb(255, 255, 255);
+      background-image:url(../assert/choose-us-1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
       font-size: 1.2em;
       backdrop-filter: blur(10px);
-      width: 90%;
-      margin-left: 75px;
-  }
-  .choose-card{
-      display: inline-flex;
-      flex-direction: row;
-      width: 65%;
-      font-size: 1.2em;
-      color: #000000;
+      padding: 5%;
       margin: 2%;
   }
+  .choose-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    font-size: 1.2em;
+    color: #000000;
+    margin: 2%;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+  }
   .c-card{
-      text-align: left;
-      margin: 10px;
-      padding: 20px;
-      background-color: #d8d5d5;
-      font-weight: 600;
+    text-align: left;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(193, 185, 185, 0.8);
+  font-weight: 600;
+  width: 300px;
+  display: grid;
+  height: 100%;
+  z-index: 1;
   }
   .c-card p{
       text-align: justify;
@@ -132,7 +133,7 @@
   .c-card i {
       font-size: 3em;
       padding-top: 30px;
-      margin-bottom: -60px;
+      margin-bottom: 6px;
   }
   .c-card h5{
       font-size: 1em;
@@ -141,7 +142,7 @@
   }
   .c-card h3{
       font-weight: 700;
-      color: #1F305E;
+      color: #012b46;
   }
   .choose-content h2{
       font-family: "Shadows Into Light";
@@ -150,6 +151,7 @@
       font-variant: normal; 
       font-weight: 700; 
       line-height: 26.4px;
+      color: aliceblue;
   }
   
   @media screen and (max-width: 650px){
@@ -169,18 +171,21 @@
       width: 60vh;
       margin-left: -37%;
   }
-  .choose{
-      height: 75vh;
+  #choose{
+      height: 100%;
       object-fit: cover;
       object-position: left bottom;
   }
   .choose-content{
-      top: 10%;
-      margin-left: 5%;
+      top: 1%;
+      margin-left: 2%;
   }
-  .choose-card{
-      flex-wrap: wrap;
-  }
+   .choose-content p {
+    margin-left: 0%;
+   }
+#choose img{
+    height: 95vh;
+}
   }
   @media screen and (min-width: 650px) and (max-width: 990px){
       .home-video{
@@ -201,10 +206,7 @@
           flex-wrap: wrap;
       }
       .choose-content{
-          top: 10%;
+          top: 1%;
           margin-left: 5%;
-      }
-      .choose-card{
-          flex-wrap: wrap;
       }
    }

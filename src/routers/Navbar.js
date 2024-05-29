@@ -40,18 +40,6 @@ function Navbar() {
           </li>
           <li
             className='nav-item'>
-            <Link to="about"
-            spy={true} 
-            smooth={true} 
-            offset={50} 
-            duration={500}
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              About
-            </Link>
-          </li>
-          <li className='nav-item'>
             <Link to="service"
             spy={true} 
             smooth={true} 
@@ -64,7 +52,7 @@ function Navbar() {
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to="/"
+            <Link to="about"
             spy={true} 
             smooth={true} 
             offset={50} 
@@ -72,11 +60,11 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Our People
+              About
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to="/"
+            <Link to="contact"
             spy={true} 
             smooth={true} 
             offset={50} 
@@ -84,7 +72,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Login
+              Contact
             </Link>
           </li>
         </ul>

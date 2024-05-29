@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Service.css";
+import "../css/ServiceStyles.css";
 import service1 from "../assert/service1.webp";
 import service2 from "../assert/service2.webp";
 import service3 from "../assert/service3.webp";
@@ -13,6 +13,7 @@ function Service(){
     ];
     return(
         <div className="mydiv" id="service">
+            <div>
             <Link to="home" spy={true} smooth={true} 
       offset={50} 
       duration={500}><img className="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9ElEQVR4nO2TPwrCMBTGXxxr3R0dCoUXeEsP0CkRpHglL+HmYRyK53DoQRSigg02vDZJO5gfZAr0+5N+AImED1jn5iwCqbVAdRWoblAeN8uIS/0wZ1YTWOdC6vYt3JnzMtLGfw76So6qA9QFlPudkOoevwn6If4huglyiEc3gf0374nbM0RdhP0nyJF8aIbBmiCG+NAMvU2gu3bWDCc/BzGTc2Y4uomqybjJ+3eOtPZd1WQuC0JIfWYlt+E0gfoCcFq5WwAQgIctK7mNswnzTQGjIEZym1lmGN0EeYh7m6AA4lFmOJUgM/TFa4ahmDTDROIfeAJfaOqz+K2UMgAAAABJRU5ErkJggg==" alt="/"/></Link>
@@ -20,6 +21,7 @@ function Service(){
             <hr/>
             <p className="service-p">From strategy to execution, our winning combination of innovative thinking,
 scientific design, sophisticated development, and ongoing ensure we're delivering value to help you grow.</p>
+            </div>
 <div className="service-card">
         {listItems.map(item =>{
             return(
