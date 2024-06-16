@@ -3,11 +3,10 @@ function WelcomeTo(){
         <div className='welcome-card'>
         <div id='c1'>
             <div className="welcome-div">
-            <h3 className="welcome-h3">Welcome to</h3>
-            <h2>Seaworks Company</h2>
+            <h2>Marine Works</h2>
             <hr/>
             </div>
-            <p>Seawork’s commitment to providing its customers with the most reliable resources is reflected in its efforts to obtain the highest standards of independent assessment of its skills. This is evident from its ISO quality assurance certification and the extensive industry qualifications of its senior personnel, who have more than a century of combined work experience.</p>
+            <p>Sunrise marine services and trading  is a trusted name in marine construction, undertaking projects related to coastal developments. From port facilities, jetties, and breakwaters to dredging and land reclamation, Sunrise marine possesses the expertise and technical capabilities to execute marine works with precision and adherence to environmental regulations.</p>
         </div>
     </div>
     );

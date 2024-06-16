@@ -18,8 +18,17 @@
 }
 
 .about-h1{
-  color: #1F305E;
+  color: #012b46;
   font-size: 2.5em;
+}
+
+.hr1{
+  width: 250px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #bfa582;
+  color: #bfa582;
 }
 .about-img{
   height: 85vh;
@@ -127,19 +136,32 @@ display: flex;
 .a-card-2{
   width: 50%;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items:flex-start;
+  text-align: left;
   margin-right: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .a-card-2 p{
   text-align: justify;
   font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   padding: 20px;
-
+}
+.a-card-2 h3{
+padding: 0px 20px;
+}
+.a-card-2 hr{
+  width: 250px;
+  position: static;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+  border: 2px solid #bfa582;
+  color: #bfa582;
 }
 .read-more {
   background: none;

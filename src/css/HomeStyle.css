@@ -5,7 +5,7 @@
     display: inline-flex;
     flex-direction: column;
     height: 100%;
-    /* background-color: #1F305E; */
+    /* background-color: #012b46; */
   }
   .home-video{
       width: 100%;
@@ -13,22 +13,19 @@
     object-fit: cover;
   }
   .home-content{
-      position: absolute;
-      width: 77%;
-      height: 100vh;
-      top: 10%;
-      right: 20%;
-      text-align: left;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-      color: aliceblue;
-  }
-  .list{
-      list-style: none;
-  }
-  .home-list i{
-      color: rgb(0, 255, 170);
+    display:inline-flex;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    font-size: 1em;
+  letter-spacing: 3px;
+  font-weight:100;
+    text-align: center;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    color: #bfa582;
   }
   
   .welcome-card{
@@ -61,18 +58,18 @@
       transform-origin: 40% 1999%;
   }
   #c1 h2{
-          margin-bottom: -5px;
-          font-size: 2.5em;
+          font-size: 3em;
           color: #012b46;
+          letter-spacing: 1px;
   }
-  #c1 hr{
-      width: 160px;
+  .welcome-div hr{
+    width: 250px;
       position: relative;
       text-align: center;
       justify-content: center;
       border: 2px solid #bfa582;
       color: #bfa582;
-  }
+    }
   #c1 p {
       margin-top: 50px;
       font-size: 1.2em;
@@ -103,6 +100,10 @@
       backdrop-filter: blur(10px);
       padding: 5%;
       margin: 2%;
+  }
+
+  #myh2{
+    color: #000000;
   }
   .choose-card{
     display: flex;

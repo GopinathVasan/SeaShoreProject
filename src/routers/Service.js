@@ -6,8 +6,8 @@ import service3 from "../assert/service3.webp";
 import service4 from "../assert/service4.webp";
 import { Link } from "react-scroll";
 function Service(){
-    const listItems = [{id:1,i:service1,title:"MARINE CONSTRUCTION",content:"Seaworks is a leading marine civil engineering firm and renowned foreshore specialist in Kuwait and Qatar. Our services range from revetment, seawall, breakwater, rock  bund  construction  and  maintenance  to  reclamation,  dredging  and diving services."},
-                    {id:2,i:service2,title:"SHIP MANAGEMENT",content:"Seaworks is an independent marine-services provider offering a broad scope of high quality ship management and consultancy services for all types of vessels and offshore units."},
+    const listItems = [{id:1,i:service1,title:"MARINE CONSTRUCTION",content:"Sunrise marine services and trading  is a leading marine civil engineering firm and renowned foreshore specialist in Kuwait and Qatar. Our services range from revetment, seawall, breakwater, rock  bund  construction  and  maintenance  to  reclamation,  dredging  and diving services."},
+                    {id:2,i:service2,title:"SHIP MANAGEMENT",content:"Sunrise marine services and trading  is an independent marine-services provider offering a broad scope of high quality ship management and consultancy services for all types of vessels and offshore units."},
                     {id:3,i:service3,title:"HEAVY EQUIPMENT RENTAL",content: "Our steady growth and expansion has transformed the company to be one of the major marine construction companies. "},
                     {id:4,i:service4,title:"EARTHWORKS",content: "With our extensive service experience in the Marine Industry, combined with the ability to handle the local market demand, providing engineering solutions that make us a reliable partner and option to our clients."}
     ];

@@ -10,7 +10,7 @@
 }
 
 .contact-h1{
-    color: #1F305E;
+    color: #012b46;
     font-size: 3em;
 }
 .interact-h1{
@@ -28,14 +28,14 @@
     max-width: 600px;
     margin: auto;
     padding: 1rem;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-radius: 0px;
     color: white;
-    background-image: url(../assert/contact-1.jpg);
+    /* background-image: url(../assert/contact-1.jpg);
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   }
   
   .form-group {
@@ -52,6 +52,13 @@
   .form-group textarea {
     padding: 0.5rem;
     border: none;
+    border-bottom: 2px solid;
+    background: transparent;
+    border-color: var(--corvid-border-color, rgba(var(--brd,227,227,227), 1));
+    border-width: var(--corvid-border-width, var(--brw, 1px));
+    box-sizing: border-box;
+    outline: none;
+    color: white;
   }
   
   button {
@@ -67,6 +74,8 @@
   .form-group textarea:hover{
     border: 2px solid;
   }
+
+
   button:hover {
     background-color: #012b46;
   }

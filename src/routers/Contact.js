@@ -34,6 +34,7 @@ function Contact() {
             type="text"
             id="name"
             name="name"
+            placeholder='Name'
             value={formData.name}
             onChange={handleChange}
           />
@@ -67,7 +68,7 @@ function Contact() {
     <p>Sunday - Thursday , 7:00 AM - 5:00 PM</p>
     </div>
     <h3>Contact</h3>
-    <p>Your feedback is important to Seaworks. Share with us your comments, compliments and feedback to help us improve our services.</p>
+    <p>Your feedback is important to SUN RISE. Share with us your comments, compliments and feedback to help us improve our services.</p>
     <div className='details'><i class="fa-solid fa-location-dot"></i>
     <p>SUN RISE Marine Service And Trading</p>
     </div>
