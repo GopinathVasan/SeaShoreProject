@@ -1,194 +1,213 @@
 .home-container{
-    /* background-color: blue; */
-  width: 100%;
-  height: 150vh;
-  position:absolute;
-}
-.home-video{
     width: 100%;
-  height: 130vh;
-  object-fit: fill;
-}
-.home-content{
-    position: absolute;
-    width: 77%;
-    height: 100%;
-    top: 20%;
-    right: 20%;
-    text-align: left;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: lighter;
-    font-size: large; */
-    font-family: "Barlow Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-    font-size: 30px;
-    color: aliceblue;
-}
-.list{
-    list-style: none;
-}
-.home-list i{
-    color: rgb(0, 255, 170);
-}
-
-.contact-card{
-  display: inline-flex;
-  justify-content: space-between;
-  align-items:center;
-  padding: 0px 30px;
-  width: 90%;
-  height: 100px;
-  left: 46px;
-  top: 82%;
-  position:absolute;
-  color: #000000;
-  box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
-  background-color: aliceblue;
-}
-.card1-content{
-    text-align: left;
-    justify-content: center;
-    
-}
-.card1-content h1{
-    margin-bottom: -15px;
-    font-weight:500;
-}
-.contact-card button{
-    color: #ffffff;
-    background-color: #000000;
-    font-size: 2em;
-    padding: 5px;
-    margin: 5px;
-    width: 20%;
-}
-.contact-card button:hover{
-    background-color: #ffffff;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-}
-.con-card{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-}
-.welcome-card{
-    /* border: 5px solid; */
-    color: #000000;
-    display: flex;
-    margin-top: 80px;
-    border-color: #000000;
-    align-items: center;
-}
-#c1{
-    width:30%;
-    text-align: left;
-    padding-left: 3%;
-    height: 300px;
-}
-#c1 h4 {
-    margin-bottom: -20px;
-    color:#bab641;
-    font-family: "Shadows Into Light";
-    font-size: 24px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px;
-}
-#c1 h2{
-    margin-bottom: -5px;
-}
-#c1 hr{
-    width: 130px;
-    position: absolute;
-    text-align: left;
-    border: 2px solid #bab641;
-    color: #bab641;
-}
-#c1 p {
-    margin-top: 50px;
-}
-#c2{
-    width: 70%;
-    color: #000000;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-
-}
-#c2 h1{
-    margin-bottom: 50px;
-    font-size: 3em;
-    font-weight: lighter;
-}
-#c2 p{
-    color: #bab641;
-}
-#c21{
-    width: 30%;
-}
-#c22{
-    width: 30%;
-}
-#c23{
-    width: 30%;
-}
-#choose{
-    width: 100%;
-    height: 50vh;
-    /* background-image:url(C:\Users\gowth\Desktop\mugil\website\src\assert\choose-us.jpg); */
-    position: relative;
-}
-#choose img{
-    width: 94%;
-    height: 110vh;
-    position: relative;
-    margin-bottom: 0%;
-
-}
-.choose-content p{
-    text-align: justify;
-    padding-left: 70px;
-    padding-right: 70px;
-}
-.choose-content{
-    position: absolute;
-    top: 160%;
-    color: white;
-}
-.choose-card{
+    /* height: 312vh; */
+    position:relative;
     display: inline-flex;
-    flex-direction: row;
-    width: 65%;
-}
-.c-card{
-    margin-left: 30px;
-    text-align: left;
-}
-.c-card p{
-    text-align: justify;
-    font-size: small;
-}
-.c-card i {
-    font-size: 3em;
-    padding-top: 30px;
-    margin-bottom: -60px;
-}
-.c-card h5{
+    flex-direction: column;
+    height: 100%;
+    /* background-color: #012b46; */
+  }
+  .home-video{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .home-content{
+    display:inline-flex;
+    position: absolute;
+    top: 15%;
+    right: 30%;
     font-size: 1em;
-    margin-bottom: -20px;
-    font-weight: lighter;
+  letter-spacing: 3px;
+  font-weight:100;
+    text-align: center;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    color: #bfa582;
+  }
+  
+  .welcome-card{
+      /* border: 5px solid; */
+      color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 0%;
+      margin-bottom: 30px;
+      /* background-color: blue; */
+  }
+  #c1{
+      width: 50%;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+  #c1 h3 {
+      margin-bottom: -20px;
+      color:#bfa582;
+      font-family: "Shadows Into Light";
+      font-size: 54px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 700; 
+      line-height: 26.4px;
+      transform: rotate(-12deg);
+      transform-origin: 40% 1999%;
+  }
+  #c1 h2{
+          font-size: 3em;
+          color: #012b46;
+          letter-spacing: 1px;
+  }
+  .welcome-div hr{
+    width: 250px;
+      position: relative;
+      text-align: center;
+      justify-content: center;
+      border: 2px solid #bfa582;
+      color: #bfa582;
+    }
+  #c1 p {
+      margin-top: 50px;
+      font-size: 1.2em;
+  }
+  #choose{
+    height: 100%;
+      /* background-image:url(../assert/choose-us-1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;  */
+  }
+
+  .choose-content p{
+      text-align: justify;
+      margin-left: 50%;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .choose-content{
+      background-image:url(../assert/choose-us-1.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      font-size: 1.2em;
+      backdrop-filter: blur(10px);
+      padding: 5%;
+      margin: 2%;
+  }
+
+  #myh2{
+    color: #000000;
+  }
+  .choose-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    font-size: 1.2em;
+    color: #000000;
+    margin: 2%;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-card{
+    text-align: left;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(193, 185, 185, 0.8);
+  font-weight: 600;
+  width: 300px;
+  display: grid;
+  height: 100%;
+  z-index: 1;
+  }
+  .c-card p{
+      text-align: justify;
+  }
+  .c-card i {
+      font-size: 3em;
+      padding-top: 30px;
+      margin-bottom: 6px;
+  }
+  .c-card h5{
+      font-size: 1em;
+      margin-bottom: -20px;
+      font-weight: lighter;
+  }
+  .c-card h3{
+      font-weight: 700;
+      color: #012b46;
+  }
+  .choose-content h2{
+      font-family: "Shadows Into Light";
+      font-size: 40px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 700; 
+      line-height: 26.4px;
+      color: aliceblue;
+  }
+  
+  @media screen and (max-width: 650px){
+   .home-video{
+      height: 75vh;
+      object-fit: cover;
+      object-position: left bottom;
+   } 
+   .welcome-card{
+      min-height: 110vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: -20%;
+  }
+  .welcome-card p{
+      width: 60vh;
+      margin-left: -37%;
+  }
+  #choose{
+      height: 100%;
+      object-fit: cover;
+      object-position: left bottom;
+  }
+  .choose-content{
+      top: 1%;
+      margin-left: 2%;
+  }
+   .choose-content p {
+    margin-left: 0%;
+   }
+#choose img{
+    height: 95vh;
 }
-.c-card h3{
-    font-weight: normal;
-}
-#myh2{
-    font-family: "Shadows Into Light";
-    font-size: 40px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px;
-}
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px){
+      .home-video{
+          object-fit: cover;
+      object-position: left bottom;
+      }
+      .welcome-card{
+          min-height: 110vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: -20%;
+          margin-bottom: -15%;
+      }
+      .welcome-card p{
+          width:50vh;
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .choose-content{
+          top: 1%;
+          margin-left: 5%;
+      }
+   }

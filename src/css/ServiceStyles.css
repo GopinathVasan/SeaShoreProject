@@ -1,0 +1,119 @@
+.myh1{
+  color: #012b46;
+  padding-top: 40px;
+  font-size: 3em;
+}
+.mydiv{
+background-color: rgb(255, 255, 255);
+height: 140vh;
+}
+.service-p {
+font-size: 1.2em;
+padding: 10px 200px;
+font-weight: 600;
+}
+.mydiv hr{
+width: 350px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #bfa582;
+  color: #bfa582;
+}
+
+.s-card{
+text-align: left;
+margin: 10px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+font-weight: 600;
+width: 300px;
+display: grid;
+height: 450px;
+z-index: 1;
+}
+.s-card p{
+text-align: justify;
+}
+.s-card img {
+width: 150px;
+height: 150px;
+align-items: center;
+justify-content: center;
+place-self: center;
+}
+.s-card h5{
+font-size: 1em;
+margin-bottom: -20px;
+font-weight: lighter;
+}
+.s-card h3{
+font-weight: 700;
+color: #012b46;
+}
+.service-card{
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95%;
+  font-size: 1.2em;
+  color: #000000;
+  margin: 2%;
+  background-image:url(../assert/service.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+  padding: 20px 10px;
+}
+
+.icon {
+padding: 40px;
+-webkit-animation: mover 0.5s infinite  alternate;
+animation: mover 0.3s infinite  alternate;
+}
+@-webkit-keyframes mover {
+0% { transform: translateY(0); }
+100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+0% { transform: translateY(0); }
+100% { transform: translateY(-20px); }
+}
+@media screen and (min-width: 650px) and (max-width: 990px){
+.icon{
+display: none;
+}
+.mydiv{
+padding-top: 70vh;
+height: 200vh;
+}
+.service-card{
+background-image: none;
+display: flex;
+position: relative;
+align-content: center;
+justify-content: center;
+}
+}
+@media screen and (max-width: 650px){
+.icon{
+  display: none;
+}
+.mydiv{
+  padding-top: 85vh;
+  height: 600vh;
+}
+.service-p{
+  padding: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.service-card{
+  background-image: none;
+  display: flex;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  margin: 0%;
+}
+}

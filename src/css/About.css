@@ -1,0 +1,215 @@
+.read-more-target,
+.read-more-trigger_opened {
+  display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target,
+.read-more-state:checked ~ .read-more-trigger_opened {
+  display: block;
+}
+.read-more-state:checked ~ .read-more-trigger_closed {
+  display: none;
+}
+.about-container{
+  padding-top: 50px;
+    font-size: 1.5em;
+    height: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.about-h1{
+  color: #012b46;
+  font-size: 2.5em;
+}
+
+.hr1{
+  width: 250px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #bfa582;
+  color: #bfa582;
+}
+.about-img{
+  height: 85vh;
+  width: 90%;
+  object-fit: cover;
+}
+#p2{
+  text-align: justify;
+  font-size: 20px;
+  padding: 40px;
+  padding-top: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: #f5f4f4;
+}
+
+#p1{
+  text-align: justify;
+  font-size: 20px;
+  background-color: #f5f4f4;
+  padding: 40px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.para-content{
+  position: relative;
+  /* top: 34%; */
+  display: flex;
+  flex-direction: row;
+  margin: 0% 2%;
+  font-weight: 600;
+}
+.about-para1{
+  width: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 0%;
+  background-image: url("../assert/about-us-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
+.about-para2{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-card-1{
+  position: relative;
+  /* top: 34%; */
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 4% 2%;
+  background-image: url("../assert/about-us.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 2%;
+}
+
+.about-card-2{
+  position: relative;
+  /* top: 34%; */
+  display: flex;
+  flex-direction: row;
+  margin: 4% 2%;
+  background-image: url("../assert/about-us-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 2%;
+}
+
+.about-card-3{
+  position: relative;
+  /* top: 34%; */
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 4% 2%;
+  background-image: url("../assert/about-us-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 2%;
+}
+.a-card-1{
+  width: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 2%;
+}
+.a-card-2{
+  width: 50%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  text-align: left;
+  margin-right: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.a-card-2 p{
+  text-align: justify;
+  font-size: 20px;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 20px;
+}
+.a-card-2 h3{
+padding: 0px 20px;
+}
+.a-card-2 hr{
+  width: 250px;
+  position: static;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+  border: 2px solid #bfa582;
+  color: #bfa582;
+}
+.read-more {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 650px){
+  .about-container{
+    /* padding-top: 125px; */
+    height: 100%;
+    position: relative;
+  }
+  .about-para1{
+    display: none;
+  }
+  .about-para2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+  }
+  .para-content{
+    margin: 2%;
+  }
+  .about-content{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 990px){
+  .about-container{
+    padding-top: 125px;
+    height: 100%;
+  }
+  .about-para1{
+    display: none;
+  }
+  .about-para2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+  }
+}
