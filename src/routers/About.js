@@ -77,7 +77,7 @@ function About({maxLength = 100 }){
                 </div>
                 <div className="a-card-2" key={item.id}>
                 <h3>{item.title}</h3>
-                {/* <hr/> */}
+                <hr/>
                 <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
                 </div>
                 </div>

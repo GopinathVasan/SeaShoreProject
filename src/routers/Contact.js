@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import "../css/ContactStyle.css";
 import { Link } from "react-scroll";
 function Contact() {
     const [formData, setFormData] = useState({
       name: '',
       email: '',
+      phone:  '',
       message: '',
     });
   
+    const [responseMessage, setResponseMessage] = useState('');
+
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData({ ...formData, [name]: value });
@@ -15,9 +19,20 @@ function Contact() {
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      // Handle form submission (e.g., send data to an API)
-      console.log('Form data submitted:', formData);
+  
+      const serviceID = 'service_48grmp8';
+      const templateID = 'template_9nash0o';
+      const userID = '2z9-gZARJ8QECQGIq';
+  
+      emailjs.sendForm(serviceID, templateID, e.target, userID)
+        .then((result) => {
+          setResponseMessage(`Thank you, ${formData.name}! Your message has been sent successfully!`);
+          setFormData({ name: '', email: '', phone: '', message: '' });
+        }, (error) => {
+          alert('Failed to send the message. Please try again later.');
+        });
     };
+  
   
     return (<div className='contact-container' id="contact">
         <Link to="home" spy={true} smooth={true} 
@@ -37,6 +52,7 @@ function Contact() {
             placeholder='Name'
             value={formData.name}
             onChange={handleChange}
+            required
           />
         </div>
         <div className="form-group">
@@ -47,6 +63,18 @@ function Contact() {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Phone Number:</label>
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            required
           />
         </div>
         <div className="form-group">
@@ -56,10 +84,12 @@ function Contact() {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            required
           ></textarea>
         </div>
         <button type="submit">Submit</button>
       </form>
+      {responseMessage && <p>{responseMessage}</p>}
         </div>
         <div className='location'>
 <div className='location-details'>
@@ -82,7 +112,7 @@ function Contact() {
     <p><a>https://sunrise.in</a></p>
     </div>
 </div>
-<div className='loaction-map'>
+<div className='location-map'>
 <h1>Location</h1>
 </div>
         </div>
