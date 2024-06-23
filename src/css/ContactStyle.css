@@ -84,6 +84,7 @@
     margin: 4% 2%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     font-size: 1.2em;
   }
   .location-details{
@@ -92,6 +93,7 @@
     text-align: left;
     align-items: left;
     width: 50%;
+    padding: 2%;
   }
   .details{
     display: flex;
@@ -103,12 +105,24 @@
     padding: 15px 10px;
   }
   @media (max-width: 600px) {
+    .contact-container{
+    padding-top: 135px;
+    }
     .form {
       padding: 1rem;
     }
-  
+  .location{
+    flex-direction: column;
+  }
+  .location-details{
+    width: 100%;
+  }
     button {
       padding: .5rem;
     }
   }
-  
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    .contact-container{
+      padding-top: 135px;
+      }
+  }

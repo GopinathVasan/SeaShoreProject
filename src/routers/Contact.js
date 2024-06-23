@@ -49,7 +49,6 @@ function Contact() {
             type="text"
             id="name"
             name="name"
-            placeholder='Name'
             value={formData.name}
             onChange={handleChange}
             required

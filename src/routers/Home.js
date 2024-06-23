@@ -1,11 +1,11 @@
-import videobg from '../assert/main.mp4';
+// import videobg from '../assert/main.mp4';
 import "../css/HomeStyle.css";
 import ChooseUs from '../homecomponent/ChooseUs.js';
 import HomeContent from '../homecomponent/HomeContent.js';
 import WelcomeTo from '../homecomponent/WelcomeTo.js';
 function Home() {
     return(
-    <div className='home-container' id="home">
+    <div className='home-container'>
     {/* <video src={videobg} autoPlay loop muted className='home-video' /> */}
     <HomeContent/>
     <WelcomeTo/>

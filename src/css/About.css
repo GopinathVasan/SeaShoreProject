@@ -9,20 +9,20 @@
 .read-more-state:checked ~ .read-more-trigger_closed {
   display: none;
 }
-.about-container{
+
+.about-container {
   padding-top: 20px;
-    font-size: 1.5em;
-    height: 100%;
-    /* background-color: aqua; */
-    position: relative;
+  font-size: 1.5em;
+  height: 100%;
+  position: relative;
 }
 
-.about-h1{
+.about-h1 {
   color: #012b46;
   font-size: 2.5em;
 }
 
-.hr1{
+.hr1 {
   width: 250px;
   position: relative;
   text-align: center;
@@ -30,12 +30,14 @@
   border: 2px solid #bfa582;
   color: #bfa582;
 }
-.about-img{
+
+.about-img {
   height: 85vh;
   width: 90%;
   object-fit: cover;
 }
-#p2{
+
+#p2 {
   text-align: justify;
   font-size: 20px;
   padding: 40px;
@@ -45,7 +47,7 @@
   background-color: #f5f4f4;
 }
 
-#p1{
+#p1 {
   text-align: justify;
   font-size: 20px;
   background-color: #f5f4f4;
@@ -54,28 +56,29 @@
   margin-bottom: 0%;
   margin-top: 0%;
 }
-.para-content{
+
+.para-content {
   position: relative;
-  /* top: 34%; */
   display: flex;
   flex-direction: row;
   margin: 0% 2%;
   font-weight: 600;
 }
-.about-para1{
+
+.about-para1 {
   width: 50%;
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 0%;
   background-image: url("../assert/about-us-1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
 }
-.about-para2{
+
+.about-para2 {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -85,100 +88,67 @@ display: flex;
 }
 
 .about-card-1{
-  position: relative;
-  /* top: 34%; */
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 4% 2%;
-  background-image: url("../assert/about-us.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  padding: 2%;
-}
-
-.about-card-2{
-  position: relative;
-  /* top: 34%; */
   display: flex;
   flex-direction: row;
   margin: 4% 2%;
-  background-image: url("../assert/about-us-2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding: 2%;
 }
-/* .about-card-1 h3{
-  text-align: right; 
-  align-self: flex-end;
-}
-.about-card-1 hr{
-  text-align: right; 
-  align-self: flex-end;
-} */
-.about-card-3{
-  position: relative;
-  /* top: 34%; */
+.about-card-2 {
   display: flex;
   flex-direction: row-reverse;
   margin: 4% 2%;
-  background-image: url("../assert/about-us-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding: 2%;
 }
-.a-card-1{
-  width: 50%;
-display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 2%;
+
+.about-card-1 {
+  background-image: url("../assert/about-us.jpg");
 }
-.a-card-2{
+
+.about-card-2 {
+  background-image: url("../assert/about-us-2.jpg");
+}
+
+.about-card-3 {
+  background-image: url("../assert/about-us-3.jpg");
+}
+
+
+.a-card-2 {
   width: 50%;
   display: flex;
   position: relative;
   flex-direction: column;
   justify-content: center;
-  align-items:flex-start;
+  align-items: flex-start;
   text-align: left;
-  margin-right: 2%;
   background-color: rgba(255, 255, 255, 0.8);
+  margin: 2%;
 }
 
-.a-card-2 p{
+.a-card-2 p {
   text-align: justify;
   font-size: 20px;
-  /* background-color: rgba(255, 255, 255, 0.8); */
   padding: 20px;
 }
-.a-card-2 h3{
-padding: 0px 20px;
-color: #012b46;
+
+.a-card-2 h3 {
+  padding: 0px 20px;
+  color: #012b46;
 }
-/* .a-card-2 hr{
-  width: 250px;
-  position: static;
-  text-align: left;
-  justify-content: left;
-  align-items: flex-start;
-  border: 1px solid #bfa582;
-  color: #bfa582;
-} */
 
 .a-card-2 hr {
   width: 250px;
   border: 1px solid #bfa582;
   color: #bfa582;
-  margin: 0; /* Remove default margins to ensure proper alignment */
-  text-align: left; /* Align text within the hr element to the left */
-  align-self: flex-start; /* Ensure hr aligns to the left in flexbox */
+  margin: 0;
+  text-align: left;
+  align-self: flex-start;
 }
 
 .read-more {
@@ -191,42 +161,57 @@ color: #012b46;
   text-decoration: underline;
 }
 
-@media screen and (max-width: 650px){
-  .about-container{
-    /* padding-top: 125px; */
+@media screen and (max-width: 650px) {
+  .about-container {
     height: 100%;
+    padding-top: 120px;
   }
-  .about-para1{
+
+  .about-para1 {
     display: none;
   }
-  .about-para2{
+
+  .about-para2 {
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
     margin: 2%;
   }
-  .para-content{
+
+  .para-content {
     margin: 2%;
   }
-  .about-content{
+
+  .about-content {
     display: flex;
     flex-direction: column;
   }
+.a-card-2{
+  width: 100%;
 }
-@media screen and (min-width: 650px) and (max-width: 990px){
-  .about-container{
+
+}
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+  .about-container {
     padding-top: 125px;
     height: 100%;
   }
-  .about-para1{
+
+  .about-para1 {
     display: none;
   }
-  .about-para2{
+
+  .about-para2 {
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
     margin: 2%;
   }
+.a-card-2{
+  width: 100%;
+}
+
 }

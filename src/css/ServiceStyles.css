@@ -81,7 +81,13 @@ animation: mover 0.3s infinite  alternate;
 100% { transform: translateY(-20px); }
 }
 
-.ad-service {
+.ad-service-1,
+.ad-service-2,
+.ad-service-3,
+.ad-service-4,
+.ad-service-5,
+.ad-service-6
+ {
   display: flex;
   flex-direction: row;
   /* background-color: #012b46; */
@@ -89,6 +95,13 @@ animation: mover 0.3s infinite  alternate;
   margin: 5% auto;
   padding: 20px;
   height:fit-content;
+  font-size: 1.2em;
+}
+
+.ad-service-2,
+.ad-service-4,
+.ad-service-6{
+  flex-direction: row-reverse;
 }
 .ad-img-1{
   width: 50%;
@@ -104,7 +117,7 @@ animation: mover 0.3s infinite  alternate;
   width: 50%;
   padding: 20px;
   background-color: #f0f8ff;
-  text-align: left;
+  text-align: justify;
 }
 
 @media screen and (min-width: 650px) and (max-width: 990px) {
@@ -112,7 +125,7 @@ animation: mover 0.3s infinite  alternate;
     display: none;
   }
   .mydiv {
-    padding-top: 70vh;
+    padding-top: 125px;
   }
   .service-card {
     background-image: none;
@@ -121,19 +134,22 @@ animation: mover 0.3s infinite  alternate;
     align-content: center;
     justify-content: center;
   }
+  .service-p{
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .icon {
     display: none;
   }
-  /* .mydiv {
-    padding-top: 85vh;
-    height: 600vh;
-  } */
+  .mydiv {
+    padding-top: 120px;
+  }
   .service-p {
     padding: 5%;
     background-color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
   }
   .service-card {
     background-image: none;
@@ -143,22 +159,25 @@ animation: mover 0.3s infinite  alternate;
     justify-content: center;
     margin: 0%;
   }
-  .ad-service {
+  .ad-service-1,
+.ad-service-2,
+.ad-service-3,
+.ad-service-4,
+.ad-service-5,
+.ad-service-6 {
     flex-direction: column;
-    width: 95%;
-    background-color: #000000;
+    width: 85%;
   }
 
   .ad-content,
   .ad-img-1 {
     width: 100%;
-    text-align: center;
     padding: 0%;
   }
 
   .ad-content {
-    width: 95%;
-    padding: 10px;
+    width: 100%;
+    text-align: left;
   }
 
   .ad-img-1 img {

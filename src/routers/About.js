@@ -1,26 +1,26 @@
-import React, { useState, useEffect } from 'react'; 
+// import React, { useState, useEffect } from 'react'; 
 import "../css/About.css";
 import { Link } from "react-scroll";
 
 function About({maxLength = 100 }){
-    const [isExpanded, setIsExpanded] = useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 650);
-    const longText = `With the technology transfer scheme that the government of Kuwait had opted for; we initiated a long-term business plan to develop strong alliances with international companies for streamlining future projects in Kuwait. Our most notable relationship was established in 1996, with ITOCHU Corporation, a Japanese trading house, and this relationship developed into a very close strategic alliance for mutual business interests in Kuwait. This was further enhanced by establishing a long-term association with Tekfen Construction & Installation Company, and an agency agreement was signed in 2005 with Tekfen in Kuwait.
-     Our parent company, Khalil Mahmoud Trading & Contracting Est. (KME) was established in 1953, primarily as a civil engineering and construction company, and has been classified as a Grade II contractor by the Central Tenders Committee since 1971 for civil construction and electrical works, which is the highest category given to local contractors working in Kuwait as category I is for international contractors. KME is best known for developing the State of Kuwait’s tenth district (Cities of Fahaheel, Ahmadi, Sabahiya, Mangaf, AbuHalifa, Fintas) by the construction of housing & commercial projects as well as relevant municipal infrastructure. In addition, KME pioneered the development of farming and mass agricultural production in Kuwait by implementing horticultural farming in the Wafra area.`;
-    useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth < 950);
-      };
+    // const [isExpanded, setIsExpanded] = useState(false);
+    // const [isMobile, setIsMobile] = useState(window.innerWidth < 650);
+    // const longText = `With the technology transfer scheme that the government of Kuwait had opted for; we initiated a long-term business plan to develop strong alliances with international companies for streamlining future projects in Kuwait. Our most notable relationship was established in 1996, with ITOCHU Corporation, a Japanese trading house, and this relationship developed into a very close strategic alliance for mutual business interests in Kuwait. This was further enhanced by establishing a long-term association with Tekfen Construction & Installation Company, and an agency agreement was signed in 2005 with Tekfen in Kuwait.
+    //  Our parent company, Khalil Mahmoud Trading & Contracting Est. (KME) was established in 1953, primarily as a civil engineering and construction company, and has been classified as a Grade II contractor by the Central Tenders Committee since 1971 for civil construction and electrical works, which is the highest category given to local contractors working in Kuwait as category I is for international contractors. KME is best known for developing the State of Kuwait’s tenth district (Cities of Fahaheel, Ahmadi, Sabahiya, Mangaf, AbuHalifa, Fintas) by the construction of housing & commercial projects as well as relevant municipal infrastructure. In addition, KME pioneered the development of farming and mass agricultural production in Kuwait by implementing horticultural farming in the Wafra area.`;
+    // useEffect(() => {
+    //   const handleResize = () => {
+    //     setIsMobile(window.innerWidth < 950);
+    //   };
   
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    //   window.addEventListener('resize', handleResize);
+    //   return () => window.removeEventListener('resize', handleResize);
+    // }, []);
   
-    const toggleExpand = () => {
-      setIsExpanded(!isExpanded);
-    };
+    // const toggleExpand = () => {
+    //   setIsExpanded(!isExpanded);
+    // };
   
-    const displayText = isExpanded || !isMobile ? longText : `${longText.slice(0, maxLength)}...`;
+    // const displayText = isExpanded || !isMobile ? longText : `${longText.slice(0, maxLength)}...`;
 
     const listItems = [
       {
@@ -71,19 +71,18 @@ function About({maxLength = 100 }){
           </div>
         </div> */}
         <div>
-        {listItems.map(item =>{
-            return(<div className={item.name}>
-                <div className="a-card-1" key={item.id}>
+          {listItems.map(item => {
+            return (
+              <div className={item.name} key={item.id}>
+                <div className="a-card-2">
+                  <h3>{item.title}</h3>
+                  <hr />
+                  <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
                 </div>
-                <div className="a-card-2" key={item.id}>
-                <h3>{item.title}</h3>
-                <hr/>
-                <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
-                </div>
-                </div>
+              </div>
             );
-        })}
-    </div>
+          })}
+        </div>
       </div>
       </div>
     );
