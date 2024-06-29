@@ -5,7 +5,7 @@ import HomeContent from '../homecomponent/HomeContent.js';
 import WelcomeTo from '../homecomponent/WelcomeTo.js';
 function Home() {
     return(
-    <div className='home-container'>
+    <div className='home-container' id="home1">
     {/* <video src={videobg} autoPlay loop muted className='home-video' /> */}
     <HomeContent/>
     <WelcomeTo/>

@@ -64,7 +64,13 @@
   font-size: 1.2em;
   letter-spacing: 3px;
   text-align: center;
+  align-items: center;
+}
 
+.title img {
+  margin: 30px 0px;
+  border-radius: 50px;
+  margin-bottom: -10px;
 }
 .title h1{
   justify-content: center;

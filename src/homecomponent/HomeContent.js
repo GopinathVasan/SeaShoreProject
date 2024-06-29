@@ -1,8 +1,7 @@
-import videobg from '../assert/main.mp4';
+import i from '../assert/about-us.jpg';
 function HomeContent(){
     return(
         <div className='home-content' id="home">
-            <video src={videobg} autoPlay loop muted className='home-video' />
             <h1>INFRASTRUCTURE & MARINE WORKS</h1>        
         </div>
     );

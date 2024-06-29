@@ -1,5 +1,6 @@
 import "../css/FooterStyles.css";
 import { Link } from "react-scroll";
+import logo from "../assert/logo.jpg";
 const Footer = () => {
   return (
     <div className="footer">
@@ -54,7 +55,8 @@ const Footer = () => {
         </ul>
         </div>
         <div className="title">
-        <h1 className='footer-title'>SUN RISE</h1>
+        <img src={logo} alt="logo" width="60" height="60"/>
+        <h1 className='footer-title'>SUNRISE</h1>
              <h3>Marine Services and Trading</h3>
         </div>
       </div>

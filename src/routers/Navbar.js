@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import "../css/NavbarStyles.css"
-
-
+import logo from "../assert/logo.jpg";
+import "../css/NavbarStyles.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -23,15 +22,15 @@ function Navbar() {
     <>
       <nav className={color ? 'NavbarItems NavbarItems-bg2': 'NavbarItems NavbarItems-bg'}>
       <div className='nav-div'>
-             <h1 className='nav-title'>SUN RISE</h1>
-             <h3>Marine Services and Trading</h3>
+      <img src={logo} alt="logo" width="80" height="80"/>
+             <h1 className='nav-title'>SUNRISE MARINE</h1>
              </div>
         <div className='menu-icons' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to="home" spy={true} 
+            <Link to="home1" spy={true} 
       smooth={true} 
       offset={50} 
       duration={500} className='nav-links' onClick={closeMobileMenu}>

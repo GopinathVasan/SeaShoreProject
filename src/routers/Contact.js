@@ -20,9 +20,9 @@ function Contact() {
     const handleSubmit = (e) => {
       e.preventDefault();
   
-      const serviceID = 'service_48grmp8';
-      const templateID = 'template_9nash0o';
-      const userID = '2z9-gZARJ8QECQGIq';
+      const serviceID = 'service_tcokxzi';
+      const templateID = 'template_e5sndff';
+      const userID = '1UudTJvk7G3xUjuX9';
   
       emailjs.sendForm(serviceID, templateID, e.target, userID)
         .then((result) => {
@@ -97,15 +97,15 @@ function Contact() {
     <p>Sunday - Thursday , 7:00 AM - 5:00 PM</p>
     </div>
     <h3>Contact</h3>
-    <p>Your feedback is important to SUN RISE. Share with us your comments, compliments and feedback to help us improve our services.</p>
+    <p>Your feedback is important to SUNRISE. Share with us your comments, compliments and feedback to help us improve our services.</p>
     <div className='details'><i class="fa-solid fa-location-dot"></i>
-    <p>SUN RISE Marine Service And Trading</p>
+    <p>SUNRISE Marine Service And Trading</p>
     </div>
     <div className='details'><i class="fa-solid fa-phone"></i>
-    <p>+91 XXXXX XXXXX</p>
+    <p><a href="tel:+974 5043 4080">+974 5043 4080</a> , <a href="tel:+974 7741 5043">+974 7741 5043</a> , <a href="tel:+97444357031">+97444357031</a></p>
     </div>
     <div className='details'><i class="fa-regular fa-envelope"></i>
-    <p>XXXXX123@gmail.com</p>
+    <p><a href='mailto:sunrisemarineco@gmail.com'>sunrisemarineco@gmail.com</a></p>
     </div>
     <div className='details'><i class="fa-solid fa-globe"></i>
     <p><a>https://sunrise.in</a></p>
@@ -113,6 +113,7 @@ function Contact() {
 </div>
 <div className='location-map'>
 <h1>Location</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14420.322932106297!2d51.551583!3d25.3686106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c3735e20a749%3A0x1bae64b11c052d86!2sThe%20Pearl%20Island!5e0!3m2!1sen!2sin!4v1719652477647!5m2!1sen!2sin"  title='location' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
         </div>
     </div>

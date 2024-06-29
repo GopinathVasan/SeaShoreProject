@@ -2,10 +2,10 @@ function WelcomeTo(){
     return(
         <div className='welcome-card'>
             <div className="welcome-div">
-            <h2>Marine Works</h2>
+            <h2>Company Overview</h2>
             <hr/>
             </div>
-            <p>Sunrise marine services and trading  is a trusted name in marine construction, undertaking projects related to coastal developments. From port facilities, jetties, and breakwaters to dredging and land reclamation, Sunrise marine possesses the expertise and technical capabilities to execute marine works with precision and adherence to environmental regulations.</p>
+            <p>Sunrise Marine is a distinguished marine contracting firm with extensive expertise in handling marine projects of moderate scale. We possess appropriate marine assets to execute various specialized tasks within the marine industry. Our capabilities span across numerous specialized fields, ensuring high-quality and reliable services to our clients.</p>
     </div>
     );
 }

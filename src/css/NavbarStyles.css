@@ -19,27 +19,33 @@
   background-color: #012b46;
   transition: background-color 1s;
 }
+
+.navtitle{
+display: flex;
+flex-direction: row;
+}
+
+.nav-div img{
+  border-radius: 50px;
+  margin: 10px;
+}
 .nav-div{
   display: flex;
-  flex-direction: column;
-  font-weight: 100;
-  color: #bfa582;
+  flex-direction: row;
+  align-items: center;
   position: relative;
   padding-left: 20px;
-  font-size: 1em;
   letter-spacing: 3px;
 }
 .nav-div h1{
-  margin-bottom: -20px;
   color: hsl(0, 0%, 100%);
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 .nav-title{
     text-align: center;
     cursor: pointer;
-    font-size: 3em;
-
+    font-size: 2.5em;
 }
 .navbar-logo {
   font-size: 2rem;
@@ -119,6 +125,9 @@ button:hover {
     width: 90%;
     justify-content: center;
   }
+  .nav-title{
+    font-size: 30px;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -162,5 +171,8 @@ button:hover {
 }
 
 @media screen and (max-width: 650px){
-  
+  .nav-title{
+    font-size: 30px;
+  }
+
 }

@@ -15,10 +15,15 @@
   height: 100vh; /* Full viewport height */
   overflow: hidden;
   text-align: center;
-  color: #bfa582;
+  color: #012b46;
+  background-image: url("../assert/about-us.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
-.home-video {
+.home-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,9 +36,9 @@
 .home-content h1 {
   z-index: 1; /* Places the heading above the video */
   margin: 0;
-  font-size: 2.3em;
-  letter-spacing: 3px;
-  font-weight: 100;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: 500;
 }
 
 .welcome-card {
@@ -65,7 +70,7 @@
 
 .welcome-card p {
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #333;
   line-height: 1.5;
   text-align: justify;
@@ -80,11 +85,11 @@
 }
 
 .choose-content {
-  background-image: url(../assert/choose-us-1.jpg);
+  background-image: url(../assert/choose-us-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   font-size: 1.2em;
   backdrop-filter: blur(10px);
   padding: 5%;
@@ -97,6 +102,7 @@
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
   color: #000;
+  font-size: 1.2em;
 }
 
 #myh2 {
@@ -172,7 +178,7 @@
   }
 
   .welcome-card p {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 0 10px;
   }
 
@@ -205,7 +211,7 @@
   }
 
   .welcome-card p {
-    font-size: 1.1em;
+    font-size: 1.5em;
     padding: 0 15px;
   }
 
