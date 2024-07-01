@@ -108,7 +108,7 @@ function Contact() {
     <p><a href='mailto:sunrisemarineco@gmail.com'>sunrisemarineco@gmail.com</a></p>
     </div>
     <div className='details'><i class="fa-solid fa-globe"></i>
-    <p><a>https://sunrise.in</a></p>
+    <p><a href='https://sunrisemarine.org/'>https://sunrisemarine.org</a></p>
     </div>
 </div>
 <div className='location-map'>

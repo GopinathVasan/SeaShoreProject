@@ -27,7 +27,7 @@ function About({maxLength = 100 }){
           id: 1,
           name: "about-card-1",
           title: "VISION",
-          content: `The company’s vision is to be a leader in the Marine Construction, Ship Management, and Heavy Equipment fields, by promoting its safety culture and utilizing new technologies, consistent with its strategic goals and by realizing maximum efficiency through superior management.<br><br>The Company's Vision statement is:<br><strong>"To be the leading Company of choice for global Marine Construction."</strong><br><br>The Company aims to reach these long-term aspirations and goals through continual improvement.`
+          content: `The company’s vision is to be a leader in the Marine Construction, Ship Management, and Heavy Equipment fields, by promoting its safety culture and utilizing new technologies, consistent with its strategic goals and by realizing maximum efficiency through superior management.<br><br>The Company aims to reach these long-term aspirations and goals through continual improvement.`
       },
       {
           id: 2,
