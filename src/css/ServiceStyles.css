@@ -83,11 +83,8 @@ animation: mover 0.3s infinite  alternate;
 }
 
 .ad-service-1,
-.ad-service-2,
 .ad-service-3,
-.ad-service-4,
-.ad-service-5,
-.ad-service-6
+.ad-service-5
  {
   display: flex;
   flex-direction: row;
@@ -102,9 +99,20 @@ animation: mover 0.3s infinite  alternate;
 .ad-service-2,
 .ad-service-4,
 .ad-service-6{
+  display: flex;
   flex-direction: row-reverse;
+  width: 90%;
+  margin: 5% auto;
+  padding: 20px;
+  height:fit-content;
+  font-size: 1.2em;
 }
-.ad-img-1{
+.ad-img-1,
+.ad-img-2,
+.ad-img-3,
+.ad-img-4,
+.ad-img-5,
+.ad-img-6 {
   width: 50%;
   height: 50vh;
 }
@@ -113,15 +121,45 @@ animation: mover 0.3s infinite  alternate;
   width: 100%;
   height: 100%;
 }
+.ad-img-2 img{
+  width: 100%;
+  height: 100%;
+}
+.ad-img-3 img{
+  width: 100%;
+  height: 100%;
+}
+.ad-img-4 img{
+  width: 100%;
+  height: 100%;
+}
+.ad-img-5 img{
+  width: 100%;
+  height: 100%;
+}
+.ad-img-6 img{
+  width: 100%;
+  height: 100%;
+}
 
-.ad-content {
+.ad-content-1,
+.ad-content-2,
+.ad-content-3,
+.ad-content-4,
+.ad-content-5,
+.ad-content-6 {
   width: 50%;
   padding: 20px;
   background-color: #f0f8ff;
   text-align: justify;
   font-weight: 600;
 }
-.ad-content p{
+.ad-content-1,
+.ad-content-2,
+.ad-content-3,
+.ad-content-4,
+.ad-content-5,
+.ad-content-6  p{
   font-size: 1.3rem;
 }
 

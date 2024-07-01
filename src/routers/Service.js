@@ -88,14 +88,14 @@ const Service = ({ interval = 3000 }) => {
       <h3 className='myh1'>Additional service</h3>
       <div className='ad-service-1'>
         <div className='ad-img-1'><img alt='/' src={ad1} /></div>
-        <div className='ad-content'>
+        <div className='ad-content-1'>
           <h2>Infrastructure Project</h2>
           <p>Sunrise Marine is renowned for its specialization in infrastructure development, particularly in road project execution. Our mission is to seize the vast potential in infrastructure development projects, establishing ourselves as a prominent name in this field.</p>
         </div>
       </div>
       <div className='ad-service-2'>
-        <div className='ad-img-1'><img alt='/' src={ad2} /></div>
-        <div className='ad-content'>
+        <div className='ad-img-2'><img alt='/' src={ad2} /></div>
+        <div className='ad-content-2'>
           <h2>Diving Works</h2>
           <p>We utilize the latest underwater marine technology and sub-sea equipment to deliver specialized diving services. Our dynamic and skilled teams ensure competitive, cost-effective, and successful outcomes for a broad range of underwater services, including:
             <li>Underwater construction Inspection survey and sampling</li>
@@ -104,29 +104,29 @@ const Service = ({ interval = 3000 }) => {
         </div>
       </div>
       <div className='ad-service-3'>
-        <div className='ad-img-1'><img alt='/' src={ad3} /></div>
-        <div className='ad-content'>
+        <div className='ad-img-3'><img alt='/' src={ad3} /></div>
+        <div className='ad-content-3'>
           <h2>Vessel Chartering & Brokering Services</h2>
           <p>Understanding the critical role of crew boats, speed boats, and tug & barge chartering in offshore or civil marine construction projects, Sunrise Marine has developed a comprehensive network of reliable partners and barge owners. We work diligently to match the requirements and needs of our clients, ensuring appropriate marine solutions for their projects.</p>
         </div>
       </div>
       <div className='ad-service-4'>
-        <div className='ad-img-1'><img alt='/' src={ad4} /></div>
-        <div className='ad-content'>
+        <div className='ad-img-4'><img alt='/' src={ad4} /></div>
+        <div className='ad-content-4'>
           <h2>Manpower Supply</h2>
           <p>Sunrise Marine assures reliable manpower supply for all marine sectors, including captains, engineers, seamen, divers, and laborers. Our goal is to provide quality manpower services to our clients, offering professional, skilled, and unskilled personnel from over 16 countries.</p>
         </div>
       </div>
       <div className='ad-service-5'>
-        <div className='ad-img-1'><img alt='/' src={ad5} /></div>
-        <div className='ad-content'>
+        <div className='ad-img-5'><img alt='/' src={ad5} /></div>
+        <div className='ad-content-5'>
           <h2>Silt Curtain Supplier</h2>
           <p>With a strong contracting background, we understand on-site requirements and perform rigorous calculations to ensure our Silt Curtains meet and exceed performance specifications. Manufactured in the USA, Turkey, and China, our Silt Curtains are designed to suit various marine conditions, acting as barriers to reduce sand and debris migration while allowing water to pass through. They are ideal for dredging, marine construction, environmental protection, and more. Our curtains are customizable to meet unique challenges and requirements.</p>
         </div>
       </div>
       <div className='ad-service-6'>
-        <div className='ad-img-1'><img alt='/' src={ad6} /></div>
-        <div className='ad-content'>
+        <div className='ad-img-6'><img alt='/' src={ad6} /></div>
+        <div className='ad-content-6'>
           <h2>Ship Maintenance</h2>
           <p>Sunrise Marine offers a wide range of ship maintenance services, including repair, conversion, and refurbishment of all types of ships. Our services also encompass:
             <li>Deck and Superstructure Maintenance</li>
