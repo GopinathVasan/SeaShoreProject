@@ -259,18 +259,47 @@ animation: mover 0.3s infinite  alternate;
     width: 85%;
   }
 
-  .ad-content,
-  .ad-img-1 {
+  .ad-img-1,
+  .ad-img-2,
+  .ad-img-3,
+  .ad-img-4,
+  .ad-img-5,
+  .ad-img-6 {
     width: 100%;
     padding: 0%;
-  }
-
-  .ad-content {
-    width: 100%;
-    text-align: left;
   }
 
   .ad-img-1 img {
     margin-top: 10px;
   }
+
+  .ad-img-2 img {
+    margin-top: 10px;
+  }
+
+  .ad-img-3 img {
+    margin-top: 10px;
+  }
+
+  .ad-img-4 img {
+    margin-top: 10px;
+  }
+
+  .ad-img-5 img {
+    margin-top: 10px;
+  }
+
+  .ad-img-6 img {
+    margin-top: 10px;
+  }
+  .ad-content-1,
+.ad-content-2,
+.ad-content-3,
+.ad-content-4,
+.ad-content-5,
+.ad-content-6 {
+  width: 100%;
+    padding: 0%;
+    text-align: left;
+}
 }
